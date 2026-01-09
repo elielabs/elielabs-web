@@ -9,7 +9,7 @@ export default defineConfig({
       social: [
         {
           label: 'GitHub',
-          link: 'https://github.com/elielabs',
+          href: 'https://github.com/elielabs',
           icon: 'github',
         },
       ],
