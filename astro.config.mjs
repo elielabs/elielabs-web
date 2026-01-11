@@ -15,10 +15,10 @@ export default defineConfig({
           ],
         },
         {
-          label: 'Products',
+          label: 'Notion to PPT Generator',
           items: [
-            { label: 'Notion to PPT Generator', link: '/products/notion-to-ppt' },
-            { label: 'ChatGPT & Gemini to Notion Clipper', link: '/products/ai-to-notion' },
+            { label: 'Overview & Download', link: '/products/notion-to-ppt' },
+            { label: 'Version History', link: '/products/notion-to-ppt/changelog' },
           ],
         },
         {

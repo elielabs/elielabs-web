@@ -1,0 +1,79 @@
+---
+title: Notion to PPT Generator
+description: Save Project Managers hours by instantly converting Notion project boards into professional PowerPoint slides.
+sidebar:
+  label: Overview & Download
+  order: 1
+---
+
+import { Card, CardGrid, LinkButton, Steps } from '@astrojs/starlight/components';
+
+<div class="hero-content" style="text-align: center; margin-bottom: 2rem;">
+
+**Current Version:** `v1.0.0` | **Last Updated:** Jan 11, 2026
+
+**The Power Duo: Extension + Smart Template.**
+<br/>
+We believe tools should work together seamlessly. That's why V1.0.0 is optimized to work exclusively with our **"Smart Project Tracker"** template—included for free!
+
+<br/>
+
+<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem; margin-bottom: 2rem;">
+  <LinkButton href="https://elielabs.gumroad.com/l/notion-to-ppt" icon="rocket" variant="primary">
+    Get Extension + Template
+  </LinkButton>
+  <LinkButton href="/products/notion-to-ppt/changelog" icon="list-format" variant="secondary">
+    View Version History
+  </LinkButton>
+</div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); margin-bottom: 3rem;">
+  <iframe 
+    src="https://www.youtube.com/embed/JMWLIOprA3c" 
+    title="Notion to PPT Demo"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+</div>
+
+## Why use the Smart Template?
+
+It’s not just a database; it’s a complete **Status Report Dashboard**.
+
+<CardGrid>
+	<Card title="Kanban & Gantt Views" icon="random">
+		Visualize your workflow stages and timelines instantly.
+	</Card>
+	<Card title="Priority Tracking" icon="warning">
+		Clear **P0/P1 tags** to highlight what matters most in your presentation.
+	</Card>
+	<Card title="Auto-Formatted Columns" icon="setting">
+		Pre-configured Project, Status, Priority, and Due Date fields that map **1:1** to your PowerPoint slides.
+	</Card>
+    <Card title="Privacy First" icon="lock">
+        As always, everything runs locally. We don't see your data.
+    </Card>
+</CardGrid>
+
+## The "Zero-Setup" Workflow
+
+Get your weekly status report done in seconds.
+
+<Steps>
+
+1.  **Install the Extension**
+    Download the **Notion to PPT Generator** from Gumroad.
+
+2.  **Duplicate the Template**
+    Get our "Smart Project Tracker" template (you'll be guided to it automatically!).
+
+3.  **Manage Your Projects**
+    Use the template to track your tasks, priorities, and deadlines.
+
+4.  **Click "Export to PPT"**
+    Watch your weekly status report build itself in seconds.
+
+</Steps>
