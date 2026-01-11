@@ -22,7 +22,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Install, build, and upload your site
         uses: withastro/action@v2
-        # 注意：如果你是用 npm，這裡不用改。如果是 pnpm/yarn 需調整。
         
   deploy:
     needs: build

@@ -1,40 +1,44 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Welcome to Elie Labs
+description: We don't just build extensions. We build Bridges.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: We don't just build extensions. We build Bridges.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: View Our Products
+      link: /products
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+      variant: primary
+    - text: Shop on Gumroad
+      link: https://elielabs.gumroad.com/
       icon: external
-      variant: minimal
+      variant: secondary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+<div class="hero-text" style="text-align: center; max-width: 800px; margin: 0 auto 3rem auto;">
+
+### Your AI stack is strong. But is your workflow connected?
+
+Individual tools like **Notion**, **ChatGPT**, and **Gemini** are incredibly powerful, yet they often live in silos. You waste time copy-pasting and toggling between tabs.
+
+**That’s where Elie Labs comes in.**
+
+Our mission is to turn standalone point solutions into a unified **Productivity Ecosystem** right inside your browser. We help solopreneurs and agile teams stop "managing tools" and start "flowing."
+
+</div>
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="The Bridge" icon="puzzle">
+		We connect the dots. Seamlessly move data between <strong>Notion</strong>, <strong>AI Models</strong>, and <strong>Slides</strong> without breaking your flow.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Privacy First" icon="lock">
+		Your data stays yours. Our extensions run locally in your browser and do not store your personal notes on our servers.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Built for Engineering" icon="laptop">
+		Founded by firmware engineers who understand the importance of precision, speed, and reliability.
 	</Card>
 </CardGrid>

@@ -6,13 +6,6 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Elie Labs',
-      social: [
-        {
-          label: 'GitHub',
-          href: 'https://github.com/elielabs',
-          icon: 'github',
-        },
-      ],
       sidebar: [
         {
           label: 'Start Here',
@@ -24,8 +17,18 @@ export default defineConfig({
         {
           label: 'Products',
           items: [
-            { label: 'Notion to PPT', link: '/products/notion-to-ppt' },
-            { label: 'Gemini Clipper', link: '/products/clipper' },
+            { label: 'Notion to PPT Generator', link: '/products/notion-to-ppt' },
+            { label: 'ChatGPT & Gemini to Notion Clipper', link: '/products/ai-to-notion' },
+          ],
+        },
+        {
+          label: 'Community',
+          items: [
+            { 
+              label: 'Roadmap & Feedback', 
+              link: 'https://elielabs.canny.io/', 
+              attrs: { target: '_blank' } 
+            },
           ],
         },
       ],
