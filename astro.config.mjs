@@ -17,7 +17,7 @@ export default defineConfig({
         {
           label: 'Products',
           items: [
-            { label: 'Products', link: '/products' },
+            { label: 'All Products', link: '/products' },
             
             {
               label: 'Notion to PPT Generator',
