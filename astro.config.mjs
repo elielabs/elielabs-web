@@ -15,10 +15,18 @@ export default defineConfig({
           ],
         },
         {
-          label: 'Notion to PPT Generator',
+          label: 'Products',
           items: [
-            { label: 'Overview & Download', link: '/products/notion-to-ppt' },
-            { label: 'Version History', link: '/products/notion-to-ppt/changelog' },
+            { label: 'Products', link: '/products' },
+            
+            {
+              label: 'Notion to PPT Generator',
+              items: [
+                { label: 'Overview & Download', link: '/products/notion-to-ppt' },
+                { label: 'Version History', link: '/products/notion-to-ppt/changelog' },
+              ],
+            },
+            
           ],
         },
         {
