@@ -23,4 +23,4 @@ We are excited to launch V1.0.0! This release is designed to save **Project Mana
 
 ---
 
-*Have a feature request? Submit it on our [Roadmap](https://elielabs.canny.io/).*
+*Have a feature request? Submit it on our <a href="https://elielabs.canny.io/" target="_blank">Roadmap</a>.*
