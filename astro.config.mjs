@@ -27,6 +27,13 @@ export default defineConfig({
               ],
             },
             
+			{
+              label: 'ChatGPT & Gemini to Notion Clipper',
+              items: [
+                { label: 'Overview & Download', link: '/products/ai-to-notion' },
+                { label: 'Version History', link: '/products/ai-to-notion/changelog' },
+              ],
+            },
           ],
         },
         {
