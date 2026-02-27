@@ -3,9 +3,9 @@ title: Privacy Policy
 description: Privacy Policy for all Chrome Extensions and products developed by Elie Labs.
 ---
 
-**Last Updated:** January 13, 2026
+**Last Updated:** February 27, 2026
 
-This Privacy Policy applies to **all Chrome Extensions** and software products developed by **Elie Labs** (including but not limited to "Notion to PPT Generator", "ChatGPT & Gemini to Notion Clipper", and future releases).
+This Privacy Policy applies to **all Chrome Extensions** and software products developed by **Elie Labs** (including but not limited to "Notion to PPT Generator", "ChatGPT & Gemini to Notion Clipper", "AI Floating Messenger", and future releases).
 
 At Elie Labs, we are software engineers who value precision and security. We build tools that respect your data ownership.
 
@@ -41,11 +41,15 @@ To provide functionality, our extensions may interact with the following trusted
 * **Gumroad:** For license management and payments.
 * **Canny.io:** For roadmap voting and user feedback.
 * **Target APIs:** Depending on the extension you use, data may be sent to specific APIs (e.g., Notion API, Google Slides API) at your direct request.
+* **OpenAI (ChatGPT) & Google (Gemini):** The AI Floating Messenger interacts directly with your active sessions on these platforms via your local browser.
 
 ## 4. Permissions Usage
 
 Our extensions request the minimum permissions necessary to function.
-* **Host Permissions (e.g., `*://*.notion.so/*`):** Required to read the page content you want to process or convert.
+
+* **Host Permissions:**
+  * **For Notion tools (e.g., `*://*.notion.so/*`):** Required to read the page content you want to process or convert.
+  * **For AI Floating Messenger (`<all_urls>` / all websites):** Required solely to display the floating chat UI over the websites you currently browse. We do not track, collect, or store your browsing history.
 * **Storage:** Required to save your settings and preferences locally.
 * **Identity:** Required for OAuth authentication with third-party services.
 
