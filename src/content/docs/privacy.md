@@ -1,6 +1,6 @@
 ---
-title: Privacy Policy
-description: Privacy Policy for all Chrome Extensions and products developed by Elie Labs.
+title: Privacy & Refund Policy
+description: Privacy Policy and Refund Policy for all Chrome Extensions and products developed by Elie Labs.
 ---
 
 **Last Updated:** March 12, 2026
@@ -64,3 +64,15 @@ We may update this Privacy Policy to reflect changes in our products or legal re
 If you have any questions about this Privacy Policy or our engineering practices, please contact us at:
 
 **Email:** elielabs.service@gmail.com
+
+---
+
+## 7. Refund Policy
+
+Due to the digital nature of our products (Chrome Extensions and Notion Templates), all sales are generally final. 
+
+* **One-Time Purchases & Templates:** Once a license key is issued or a Notion template is duplicated, the product is considered delivered and consumed. Therefore, we do not offer refunds for these items.
+* **Subscriptions:** You may cancel your subscription at any time. Cancellation will take effect at the end of your current billing cycle. We do not provide prorated refunds for partial months.
+* **Technical Guarantee:** We stand behind our engineering. If our extension experiences a critical bug that prevents it from functioning as advertised, and our support team cannot provide a workaround or fix within 7 days of your report, we will issue a full refund. 
+
+To request a technical refund, please contact us at **elielabs.service@gmail.com** within 14 days of your purchase, including your license key and a description of the issue.
