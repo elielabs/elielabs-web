@@ -3,7 +3,7 @@ title: Privacy Policy
 description: Privacy Policy for all Chrome Extensions and products developed by Elie Labs.
 ---
 
-**Last Updated:** February 27, 2026
+**Last Updated:** March 12, 2026
 
 This Privacy Policy applies to **all Chrome Extensions** and software products developed by **Elie Labs** (including but not limited to "Notion to PPT Generator", "ChatGPT & Gemini to Notion Clipper", "AI Floating Messenger", and future releases).
 
@@ -31,14 +31,14 @@ Our extensions are architected to run **locally within your browser**. When you 
 * We may collect anonymous, aggregated metrics provided by the **Chrome Web Store** (such as daily active users or uninstall rates) to monitor the health of our products. This data is not personally identifiable.
 
 ### D. Payment Information
-* We use **Gumroad** as our payment processor.
-* Elie Labs does not store your credit card details. Gumroad provides us with your **email address** and **license key** solely for license verification and customer support purposes.
+* We use **Lemon Squeezy** as our Merchant of Record (MoR) and payment processor.
+* Elie Labs does not store your credit card or payment details. Lemon Squeezy securely handles all transactions and provides us only with your **email address** and **license key** solely for license verification, order fulfillment, and customer support purposes.
 
 ## 3. Third-Party Services
 
 To provide functionality, our extensions may interact with the following trusted third-party services. We recommend reviewing their privacy policies:
 
-* **Gumroad:** For license management and payments.
+* **Lemon Squeezy:** For secure checkout, license management, and payment processing.
 * **Canny.io:** For roadmap voting and user feedback.
 * **Target APIs:** Depending on the extension you use, data may be sent to specific APIs (e.g., Notion API, Google Slides API) at your direct request.
 * **OpenAI (ChatGPT) & Google (Gemini):** The AI Floating Messenger interacts directly with your active sessions on these platforms via your local browser.
