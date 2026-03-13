@@ -34,6 +34,14 @@ export default defineConfig({
                 { label: 'Version History', link: '/products/ai-to-notion/changelog' },
               ],
             },
+            
+            {
+              label: 'ChatGPT & Gemini Floating Messenger',
+              items: [
+                { label: 'Overview & Download', link: '/products/ai-floating-messenger' },
+                { label: 'Version History', link: '/products/ai-floating-messenger/changelog' },
+              ],
+            },
           ],
         },
         {
