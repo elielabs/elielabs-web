@@ -3,9 +3,9 @@ title: Privacy & Refund Policy
 description: Privacy Policy and Refund Policy for all Chrome Extensions and products developed by Elie Labs.
 ---
 
-**Last Updated:** March 12, 2026
+**Last Updated:** April 17, 2026
 
-This Privacy Policy applies to **all Chrome Extensions** and software products developed by **Elie Labs** (including but not limited to "Notion to PPT Generator", "ChatGPT & Gemini to Notion Clipper", "AI Floating Messenger", and future releases).
+This Privacy Policy applies to **all Chrome Extensions** and software products developed by **Elie Labs** (including but not limited to "Notion to PPT Generator", **"Notion AI Bridge"** (formerly ChatGPT & Gemini to Notion Clipper), "AI Floating Messenger", and future releases).
 
 At Elie Labs, we are software engineers who value precision and security. We build tools that respect your data ownership.
 
@@ -40,20 +40,22 @@ To provide functionality, our extensions may interact with the following trusted
 
 * **Lemon Squeezy:** For secure checkout, license management, and payment processing.
 * **Canny.io:** For roadmap voting and user feedback.
-* **Target APIs:** Depending on the extension you use, data may be sent to specific APIs (e.g., Notion API, Google Slides API) at your direct request.
-* **OpenAI (ChatGPT) & Google (Gemini):** The AI Floating Messenger interacts directly with your active sessions on these platforms via your local browser.
+* **Target APIs & Notion:** Depending on the extension you use, data is sent directly to specific APIs (e.g., Notion API) at your direct request.
+* **Supported AI Platforms:** Our tools interact locally with your active sessions on platforms including **OpenAI (ChatGPT), Google (Gemini), Anthropic (Claude), Perplexity, and DeepSeek** via your browser. We do not intercept these chats.
+* **ImgBB (Image Hosting):** Specifically for "Notion AI Bridge", when you clip AI-generated diagrams or artifacts that require visual saving, the extension temporarily uploads an anonymous, cropped screenshot of that specific artifact to ImgBB (`api.imgbb.com`) to generate a secure public URL. This is strictly required because Notion's API mandates public URLs for embedding images into documents. We do not upload your personal photos or full browser screens.
 
 ## 4. Permissions Usage
 
 Our extensions request the minimum permissions necessary to function.
 
-* **Host Permissions:**
-  * **For Notion tools (e.g., `*://*.notion.so/*`):** Required to read the page content you want to process or convert.
-  * **For AI Floating Messenger (`<all_urls>` / all websites):** Required solely to display the floating chat UI over the websites you currently browse. We do not track, collect, or store your browsing history.
+* **Host Permissions (`<all_urls>` / all websites):**
+  * **For AI Floating Messenger:** Required solely to display the floating chat UI over the websites you currently browse.
+  * **For Notion AI Bridge:** Required to safely capture screenshots (`captureVisibleTab`) of complex AI artifacts (like charts or interactive code components) from supported AI platforms. Chrome's security model requires this permission to trigger screenshots via injected in-page UI buttons.
+  * *We NEVER use these permissions to track your browsing history, monitor unrelated tabs, or inject ads.*
+* **Host Permissions (Specific Domains):** E.g., `*://*.notion.so/*` is required to read the page content you want to process or convert.
 * **Storage:** Required to save your settings and preferences locally.
+* **Alarms:** Required to schedule lightweight background tasks (e.g., daily license validation).
 * **Identity:** Required for OAuth authentication with third-party services.
-
-We never use these permissions to track your browsing history or inject ads.
 
 ## 5. Changes to This Policy
 
