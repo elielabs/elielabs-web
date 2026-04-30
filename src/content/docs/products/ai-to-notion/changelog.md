@@ -1,6 +1,6 @@
 ---
 title: Version History
-description: Changelog for Notion AI Bridge: Export & Prompt.
+description: "Changelog for Notion AI Bridge: Export & Prompt."
 sidebar:
   label: Version History
   order: 2
