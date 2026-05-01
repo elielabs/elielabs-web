@@ -28,10 +28,10 @@ export default defineConfig({
             },
             
 			{
-              label: 'ChatGPT & Gemini to Notion Clipper',
+              label: 'Notion AI Bridge: Export & Prompt',
               items: [
-                { label: 'Overview & Download', link: '/products/ai-to-notion' },
-                { label: 'Version History', link: '/products/ai-to-notion/changelog' },
+                { label: 'Overview & Download', link: '/products/notion-ai-bridge' },
+                { label: 'Version History', link: '/products/notion-ai-bridge/changelog' },
               ],
             },
             
