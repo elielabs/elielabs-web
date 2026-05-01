@@ -6,6 +6,24 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Elie Labs',
+      head: [
+        {
+          tag: 'script',
+          attrs: {
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-B5LZKL2CL0',
+            async: true,
+          },
+        },
+        {
+          tag: 'script',
+          content: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-B5LZKL2CL0');
+          `,
+        },
+      ],
       sidebar: [
         {
           label: 'Start Here',
@@ -18,7 +36,6 @@ export default defineConfig({
           label: 'Products',
           items: [
             { label: 'All Products', link: '/products' },
-            
             {
               label: 'Notion to PPT Generator',
               items: [
@@ -26,15 +43,13 @@ export default defineConfig({
                 { label: 'Version History', link: '/products/notion-to-ppt/changelog' },
               ],
             },
-            
-			{
+            {
               label: 'Notion AI Bridge: Export & Prompt',
               items: [
                 { label: 'Overview & Download', link: '/products/notion-ai-bridge' },
                 { label: 'Version History', link: '/products/notion-ai-bridge/changelog' },
               ],
             },
-            
             {
               label: 'ChatGPT & Gemini Floating Messenger',
               items: [
