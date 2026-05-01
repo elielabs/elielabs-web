@@ -60,6 +60,10 @@ export default defineConfig({
           ],
         },
         {
+          label: 'Developer Log',
+          autogenerate: { directory: 'dev-log' },
+        },
+        {
           label: 'Community',
           items: [
             { 

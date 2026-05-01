@@ -1,0 +1,55 @@
+---
+title: Developer Log (Build in Public)
+description: Behind the scenes at Elie Labs. Documenting the indie hacking journey, technical architecture evolution, and the hard-learned lessons you won't find in official docs.
+sidebar:
+  label: Overview
+  order: 1
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<div class="hero-content" style="text-align: center; margin-bottom: 3rem;">
+  ## Welcome to the Elie Labs Engine Room
+  There are no flawless architectures here—only real, raw documentation of late-night debugging sessions and lessons learned.
+</div>
+
+As a solo developer, I strongly believe in the power of **Building in Public**. This space chronicles the technical evolution of the Elie Labs product ecosystem.
+
+My three commitments for these logs:
+1. **Reproducible Solutions:** Written so my future self—or a passing developer—can understand and implement them directly.
+2. **Open Source Spirit:** I keep business secrets safe, but I share my technical pitfalls and solutions without reservation.
+3. **Continuous Evolution:** Proof that this is a living, breathing product matrix that experiences real growing pains.
+
+---
+
+### 📚 Development Logs
+
+<CardGrid>
+  <LinkCard 
+    title="Data Analytics: Building the GA4 Conversion Funnel" 
+    description="Goodbye, (not set) panic! A practical guide to setting up custom GA4 event tracking in Astro for multiple products." 
+    href="/dev-log/ga4-custom-events" 
+  />
+</CardGrid>
+
+---
+
+### 🚀 Work in Progress
+
+Currently grinding on these architectural upgrades to make Elie Labs more robust and automated:
+
+<CardGrid>
+  <Card title="Instant Messaging Notifications" icon="rocket">
+    Building a Serverless Notification Hub to funnel website conversion events directly into instant push notifications (e.g., LINE) on my phone!
+  </Card>
+  <Card title="Robust CI/CD Pipeline" icon="setting">
+    Automating the entire deployment and testing workflow using GitHub Actions to ensure zero-downtime updates for all extensions.
+  </Card>
+  <Card title="System Modularization" icon="puzzle">
+    Refactoring core logic into reusable modules to accelerate the launch of future products within the Elie Labs ecosystem.
+  </Card>
+</CardGrid>
+
+<div style="text-align: center; margin-top: 3rem; opacity: 0.7;">
+  <em>"The best way to predict the future is to invent it."</em>
+</div>
