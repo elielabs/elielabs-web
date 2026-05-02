@@ -6,26 +6,32 @@ sidebar:
   order: 0
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, Badge } from '@astrojs/starlight/components';
 
-Here are the tools we've built to help you work smarter.
+Here are the tools we've built to help you work smarter and eliminate repetitive tasks.
+
+<br/>
 
 <CardGrid>
-	<Card title="Notion to PPT Generator" icon="document">
-		Convert your Notion pages into professional PowerPoint presentations in seconds.
-        <br/>
-        <a href="/products/notion-to-ppt">Download & Overview</a>
-	</Card>
-    
-    <Card title="Notion AI Bridge: Export & Prompt" icon="magnifier">
-		Save AI conversations directly to your Notion database with perfect formatting.
-        <br/>
+	<Card title="Notion AI Bridge" icon="magnifier">
+        <Badge text="v2.0 Released" variant="success" />
+        <br/><br/>
+		Save AI conversations directly to your Notion database with perfect formatting. Now featuring 2-way sync and multi-model support.
+        <br/><br/>
         <a href="/products/notion-ai-bridge">Download & Overview</a>
 	</Card>
 
-    <Card title="ChatGPT & Gemini Floating Messenger" icon="laptop">
-		Chat with ChatGPT & Gemini anywhere, effortlessly. Stop switching tabs.
-        <br/>
+	<Card title="Notion to PPT Generator" icon="document">
+        <Badge text="Popular" variant="note" />
+        <br/><br/>
+		Convert your Notion pages into professional PowerPoint presentations in seconds.
+        <br/><br/>
+        <a href="/products/notion-to-ppt">Download & Overview</a>
+	</Card>
+
+    <Card title="AI Floating Messenger" icon="laptop">
+		Chat with AI anywhere, effortlessly. Stop switching tabs and keep your workflow seamless.
+        <br/><br/>
         <a href="/products/ai-floating-messenger">Download & Overview</a>
 	</Card>
 </CardGrid>
