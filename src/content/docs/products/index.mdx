@@ -8,28 +8,39 @@ sidebar:
 
 import { Card, CardGrid, Badge } from '@astrojs/starlight/components';
 
+{/* 利用 CSS 將 Logo 定位在右上角，請將 src 替換為你的圖片路徑 */}
+<img src="/elie-labs-logo.png" alt="Elie Labs Logo" style={{ float: 'right', width: '120px', marginTop: '-60px' }} />
+
 Here are the tools we've built to help you work smarter and eliminate repetitive tasks.
 
 <br/>
 
 <CardGrid>
-	<Card title="Notion AI Bridge" icon="magnifier">
-        <Badge text="v2.0 Released" variant="success" />
-        <br/><br/>
+	<Card title="Notion AI Bridge">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
+            <img src="/icon-bridge.png" alt="Bridge Icon" width="36" style={{ borderRadius: '8px' }} />
+            <Badge text="v2.0.0" variant="success" />
+        </div>
 		Save AI conversations directly to your Notion database with perfect formatting. Now featuring 2-way sync and multi-model support.
         <br/><br/>
         <a href="/products/notion-ai-bridge">Download & Overview</a>
 	</Card>
 
-	<Card title="Notion to PPT Generator" icon="document">
-        <Badge text="Popular" variant="note" />
-        <br/><br/>
+	<Card title="Notion to PPT Generator">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
+            <img src="/icon-ppt.png" alt="PPT Icon" width="36" style={{ borderRadius: '8px' }} />
+            <Badge text="v1.0.0" variant="note" />
+        </div>
 		Convert your Notion pages into professional PowerPoint presentations in seconds.
         <br/><br/>
         <a href="/products/notion-to-ppt">Download & Overview</a>
 	</Card>
 
-    <Card title="AI Floating Messenger" icon="laptop">
+    <Card title="AI Floating Messenger">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
+            <img src="/icon-messenger.png" alt="Messenger Icon" width="36" style={{ borderRadius: '8px' }} />
+            <Badge text="v1.0.0" variant="note" />
+        </div>
 		Chat with AI anywhere, effortlessly. Stop switching tabs and keep your workflow seamless.
         <br/><br/>
         <a href="/products/ai-floating-messenger">Download & Overview</a>
