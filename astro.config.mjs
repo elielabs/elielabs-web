@@ -67,9 +67,8 @@ export default defineConfig({
           label: 'Community',
           items: [
             { 
-              label: 'Roadmap & Feedback', 
-              link: 'https://elielabs.canny.io/', 
-              attrs: { target: '_blank' } 
+              label: 'Contact Us', 
+              link: '/#contact', 
             },
           ],
         },
