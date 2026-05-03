@@ -8,17 +8,17 @@ sidebar:
 
 import { Card, CardGrid, Badge } from '@astrojs/starlight/components';
 
-{/* 利用 CSS 將 Logo 定位在右上角，請將 src 替換為你的圖片路徑 */}
-<img src="/elie-labs-logo.png" alt="Elie Labs Logo" style={{ float: 'right', width: '120px', marginTop: '-60px' }} />
+<img src="/elie-labs-logo.png" alt="Elie Labs Logo" style={{ position: 'absolute', right: '0', top: '-110px', width: '100px', zIndex: 10 }} />
 
 Here are the tools we've built to help you work smarter and eliminate repetitive tasks.
 
 <br/>
 
 <CardGrid>
-	<Card title="Notion AI Bridge">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
-            <img src="/icon-bridge.png" alt="Bridge Icon" width="36" style={{ borderRadius: '8px' }} />
+	<Card title=" ">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '-2.5rem', marginBottom: '1rem' }}>
+            <img src="/icon-bridge.png" alt="Bridge Icon" width="28" style={{ borderRadius: '6px' }} />
+            <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>Notion AI Bridge</span>
             <Badge text="v2.0.0" variant="success" />
         </div>
 		Save AI conversations directly to your Notion database with perfect formatting. Now featuring 2-way sync and multi-model support.
@@ -26,9 +26,10 @@ Here are the tools we've built to help you work smarter and eliminate repetitive
         <a href="/products/notion-ai-bridge">Download & Overview</a>
 	</Card>
 
-	<Card title="Notion to PPT Generator">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
-            <img src="/icon-ppt.png" alt="PPT Icon" width="36" style={{ borderRadius: '8px' }} />
+	<Card title=" ">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '-2.5rem', marginBottom: '1rem' }}>
+            <img src="/icon-ppt.png" alt="PPT Icon" width="28" style={{ borderRadius: '6px' }} />
+            <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>Notion to PPT Generator</span>
             <Badge text="v1.0.0" variant="note" />
         </div>
 		Convert your Notion pages into professional PowerPoint presentations in seconds.
@@ -36,9 +37,10 @@ Here are the tools we've built to help you work smarter and eliminate repetitive
         <a href="/products/notion-to-ppt">Download & Overview</a>
 	</Card>
 
-    <Card title="AI Floating Messenger">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px' }}>
-            <img src="/icon-messenger.png" alt="Messenger Icon" width="36" style={{ borderRadius: '8px' }} />
+    <Card title=" ">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '-2.5rem', marginBottom: '1rem' }}>
+            <img src="/icon-messenger.png" alt="Messenger Icon" width="28" style={{ borderRadius: '6px' }} />
+            <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>AI Floating Messenger</span>
             <Badge text="v1.0.0" variant="note" />
         </div>
 		Chat with AI anywhere, effortlessly. Stop switching tabs and keep your workflow seamless.
