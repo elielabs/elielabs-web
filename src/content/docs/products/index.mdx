@@ -8,7 +8,8 @@ sidebar:
 
 import { Card, CardGrid, Badge } from '@astrojs/starlight/components';
 
-<img src="/elie-labs-logo.png" alt="Elie Labs Logo" style={{ position: 'absolute', right: '0', top: '-110px', width: '100px', zIndex: 10 }} />
+{/* 使用 float 與負邊距將 Logo 往上推，避免被 Starlight 容器裁切消失 */}
+<img src="/elie-labs-logo.png" alt="Elie Labs Logo" style={{ float: 'right', marginTop: '-120px', width: '100px', position: 'relative', zIndex: 10 }} />
 
 Here are the tools we've built to help you work smarter and eliminate repetitive tasks.
 
@@ -16,10 +17,16 @@ Here are the tools we've built to help you work smarter and eliminate repetitive
 
 <CardGrid>
 	<Card title=" ">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '-2.5rem', marginBottom: '1rem' }}>
-            <img src="/icon-bridge.png" alt="Bridge Icon" width="28" style={{ borderRadius: '6px' }} />
-            <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>Notion AI Bridge</span>
-            <Badge text="v2.0.0" variant="success" />
+        <div style={{ marginTop: '-2.5rem', marginBottom: '1rem' }}>
+            {/* 第一排：Icon 與產品名稱 */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="/icon-bridge.png" alt="Bridge Icon" width="28" style={{ borderRadius: '6px' }} />
+                <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>Notion AI Bridge</span>
+            </div>
+            {/* 第二排：靠右的版號標籤，強制不換行 */}
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '12px' }}>
+                <div style={{ whiteSpace: 'nowrap' }}><Badge text="v2.0.0" variant="success" /></div>
+            </div>
         </div>
 		Save AI conversations directly to your Notion database with perfect formatting. Now featuring 2-way sync and multi-model support.
         <br/><br/>
@@ -27,10 +34,14 @@ Here are the tools we've built to help you work smarter and eliminate repetitive
 	</Card>
 
 	<Card title=" ">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '-2.5rem', marginBottom: '1rem' }}>
-            <img src="/icon-ppt.png" alt="PPT Icon" width="28" style={{ borderRadius: '6px' }} />
-            <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>Notion to PPT Generator</span>
-            <Badge text="v1.0.0" variant="note" />
+        <div style={{ marginTop: '-2.5rem', marginBottom: '1rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="/icon-ppt.png" alt="PPT Icon" width="28" style={{ borderRadius: '6px' }} />
+                <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>Notion to PPT Generator</span>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '12px' }}>
+                <div style={{ whiteSpace: 'nowrap' }}><Badge text="v1.0.0" variant="note" /></div>
+            </div>
         </div>
 		Convert your Notion pages into professional PowerPoint presentations in seconds.
         <br/><br/>
@@ -38,10 +49,14 @@ Here are the tools we've built to help you work smarter and eliminate repetitive
 	</Card>
 
     <Card title=" ">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '-2.5rem', marginBottom: '1rem' }}>
-            <img src="/icon-messenger.png" alt="Messenger Icon" width="28" style={{ borderRadius: '6px' }} />
-            <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>AI Floating Messenger</span>
-            <Badge text="v1.0.0" variant="note" />
+        <div style={{ marginTop: '-2.5rem', marginBottom: '1rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="/icon-messenger.png" alt="Messenger Icon" width="28" style={{ borderRadius: '6px' }} />
+                <span style={{ fontSize: '1.25rem', fontWeight: '600', color: 'var(--sl-color-white)', lineHeight: '1.2' }}>AI Floating Messenger</span>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '12px' }}>
+                <div style={{ whiteSpace: 'nowrap' }}><Badge text="v1.0.0" variant="note" /></div>
+            </div>
         </div>
 		Chat with AI anywhere, effortlessly. Stop switching tabs and keep your workflow seamless.
         <br/><br/>
