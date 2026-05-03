@@ -15,7 +15,7 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-<div class="hero-text" style="text-align: center; max-width: 800px; margin: 0 auto 3rem auto;">
+<div className="hero-text" style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 3rem auto' }}>
 
 ### Your AI stack is strong. But is your workflow connected?
 
@@ -24,18 +24,6 @@ Individual tools like **Notion**, **ChatGPT**, and **Gemini** are incredibly pow
 **That’s where Elie Labs comes in.**
 
 We don't just build extensions. We build **Bridges**. Our mission is to turn standalone point solutions into a unified **Productivity Ecosystem** right inside your browser. We help solopreneurs and agile teams stop "managing tools" and start "flowing."
-
-<br/>
-
-### We believe in transparency
-
-Our Roadmap is officially public. This is our blueprint for connecting the dots between the AI tools you use every day.
-
-<a href="https://elielabs.canny.io/" target="_blank" style="font-weight: bold; text-decoration: none;">
-  Check out what we are building on Canny →
-</a>
-<br/>
-<span style="font-size: 0.9em; opacity: 0.8;">and help us decide where to build the next bridge.</span>
 
 </div>
 
@@ -51,9 +39,38 @@ Our Roadmap is officially public. This is our blueprint for connecting the dots 
 	</Card>
 </CardGrid>
 
-<div style="text-align: center; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--sl-color-hairline);">
-  <a href="/about" style="text-decoration: none; color: var(--sl-color-text-accent); margin-right: 1rem;">About Elie Labs</a>
-  <p style="margin-top: 1rem; font-size: 0.8rem; opacity: 0.6;">
+<br/>
+<br/>
+
+<hr style={{ border: '0', height: '1px', backgroundColor: 'var(--sl-color-gray-5)', marginBottom: '3rem' }} />
+
+<div style={{ maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
+    <h2 style={{ fontSize: '1.75rem', marginBottom: '10px' }}>Get in Touch</h2>
+    <p style={{ color: 'var(--sl-color-gray-3)', marginBottom: '30px' }}>
+        Have a feature request, found a bug, or just want to say hi? Drop us a message below.
+    </p>
+
+    <form action="https://api.web3forms.com/submit" method="POST" style={{ display: 'flex', flexDirection: 'column', gap: '16px', textAlign: 'left' }}>
+        <input type="hidden" name="access_key" value="c08a3d51-651d-4901-96e8-f714e2e42681" />
+        
+        <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+            <input type="text" name="name" placeholder="Name (Optional)" style={{ flex: '1 1 250px', padding: '12px', borderRadius: '8px', border: '1px solid var(--sl-color-gray-5)', backgroundColor: 'var(--sl-color-gray-6)', color: 'var(--sl-color-text)' }} />
+            <input type="email" name="email" placeholder="Email Address *" required style={{ flex: '1 1 250px', padding: '12px', borderRadius: '8px', border: '1px solid var(--sl-color-gray-5)', backgroundColor: 'var(--sl-color-gray-6)', color: 'var(--sl-color-text)' }} />
+        </div>
+        
+        <textarea name="message" placeholder="How can we help you?" rows="5" required style={{ padding: '12px', borderRadius: '8px', border: '1px solid var(--sl-color-gray-5)', backgroundColor: 'var(--sl-color-gray-6)', color: 'var(--sl-color-text)', resize: 'vertical', fontFamily: 'inherit' }}></textarea>
+
+        <input type="checkbox" name="botcheck" style={{ display: 'none' }} />
+
+        <button type="submit" style={{ padding: '12px 24px', backgroundColor: 'var(--sl-color-text-accent)', color: 'var(--sl-color-black)', border: 'none', borderRadius: '8px', fontWeight: '600', fontSize: '1rem', cursor: 'pointer', alignSelf: 'flex-start', marginTop: '8px' }}>
+            Send Message
+        </button>
+    </form>
+</div>
+
+<div style={{ textAlign: 'center', marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid var(--sl-color-hairline)' }}>
+  <a href="/about" style={{ textDecoration: 'none', color: 'var(--sl-color-text-accent)', marginRight: '1rem' }}>About Elie Labs</a>
+  <p style={{ marginTop: '1rem', fontSize: '0.8rem', opacity: '0.6' }}>
     © 2026 Elie Labs. Built with precision.
   </p>
 </div>
