@@ -29,7 +29,8 @@ export default defineConfig({
           label: 'Start Here',
           items: [
             { label: 'About Us', link: '/about' },
-            { label: 'Privacy & Refund Policy', link: '/privacy' },
+            { label: 'Privacy Policy', link: '/privacy' },
+            { label: 'Refund Policy', link: '/refund' },
           ],
         },
         {

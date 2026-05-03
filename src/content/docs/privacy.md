@@ -1,6 +1,6 @@
 ---
-title: Privacy & Refund Policy
-description: Privacy Policy and Refund Policy for all Chrome Extensions and products developed by Elie Labs.
+title: Privacy Policy
+description: Privacy Policy for all Chrome Extensions and products developed by Elie Labs.
 ---
 
 **Last Updated:** April 17, 2026
@@ -39,7 +39,6 @@ Our extensions are architected to run **locally within your browser**. When you 
 To provide functionality, our extensions may interact with the following trusted third-party services. We recommend reviewing their privacy policies:
 
 * **Lemon Squeezy:** For secure checkout, license management, and payment processing.
-* **Canny.io:** For roadmap voting and user feedback.
 * **Target APIs & Notion:** Depending on the extension you use, data is sent directly to specific APIs (e.g., Notion API) at your direct request.
 * **Supported AI Platforms:** Our tools interact locally with your active sessions on platforms including **OpenAI (ChatGPT), Google (Gemini), Anthropic (Claude), Perplexity, and DeepSeek** via your browser. We do not intercept these chats.
 * **ImgBB (Image Hosting):** Specifically for "Notion AI Bridge", when you clip AI-generated diagrams or artifacts that require visual saving, the extension temporarily uploads an anonymous, cropped screenshot of that specific artifact to ImgBB (`api.imgbb.com`) to generate a secure public URL. This is strictly required because Notion's API mandates public URLs for embedding images into documents. We do not upload your personal photos or full browser screens.
@@ -63,18 +62,6 @@ We may update this Privacy Policy to reflect changes in our products or legal re
 
 ## 6. Contact Us
 
-If you have any questions about this Privacy Policy or our engineering practices, please contact us at:
+If you have any questions about this Privacy Policy or our engineering practices, please reach out via our **[Contact Form](/#contact)** or email us directly at:
 
 **Email:** elielabs.service@gmail.com
-
----
-
-## 7. Refund Policy
-
-Due to the digital nature of our products (Chrome Extensions and Notion Templates), all sales are generally final. 
-
-* **One-Time Purchases & Templates:** Once a license key is issued or a Notion template is duplicated, the product is considered delivered and consumed. Therefore, we do not offer refunds for these items.
-* **Subscriptions:** You may cancel your subscription at any time. Cancellation will take effect at the end of your current billing cycle. We do not provide prorated refunds for partial months.
-* **Technical Guarantee:** We stand behind our engineering. If our extension experiences a critical bug that prevents it from functioning as advertised, and our support team cannot provide a workaround or fix within 7 days of your report, we will issue a full refund. 
-
-To request a technical refund, please contact us at **elielabs.service@gmail.com** within 14 days of your purchase, including your license key and a description of the issue.
